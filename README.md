@@ -9,6 +9,13 @@ To see more about how to crawl and what you can do with the crawled data, check 
 
 ## Run it locally
 
-* Clone repo
-* `npm install`
-* `node sample.js --url=https://www.eslbot.com/job-details/5aafc0ec8a8b373ef82877cf`
+```bash
+# Clone this repo
+git clone https://github.com/wellstyler/nodejs-puppeteer-web-scrape.git
+
+# Install dependencies
+npm install
+
+# Crawl a job listing, input a string, and output some data to editpad.org
+node sample.js --url=https://www.eslbot.com/job-details/5aafc0ec8a8b373ef82877cf
+```
