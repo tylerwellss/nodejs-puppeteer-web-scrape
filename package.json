@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-puppeteer-web-scrape",
+  "version": "1.0.0",
+  "description": "A sample showing how to scrape a website using the Puppeteer Node library and Headless Chrome",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellstyler/nodejs-puppeteer-web-scrape.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellstyler/nodejs-puppeteer-web-scrape/issues"
+  },
+  "homepage": "https://github.com/wellstyler/nodejs-puppeteer-web-scrape#readme",
+  "dependencies": {
+    "optimist": "^0.6.1",
+    "prompt": "^1.0.0",
+    "puppeteer": "^1.5.0"
+  }
+}
