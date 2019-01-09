@@ -17,5 +17,5 @@ git clone https://github.com/wellstyler/nodejs-puppeteer-web-scrape.git
 npm install
 
 # Crawl a job listing, input a string, and output some data to editpad.org
-node sample.js --url=https://www.eslbot.com/job-details/5aafc0ec8a8b373ef82877cf
+node sample.js --url=https://old.eslbot.com/job-details/5aafc0ec8a8b373ef82877cf
 ```
