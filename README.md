@@ -1,7 +1,7 @@
 # nodejs-puppeteer-web-scrape
 A sample showing how to scrape a website using the Puppeteer Node library and Headless Chrome
 
-Our sample.js will crawl a single job post URL on my website, https://www.eslbot.com, and then input some of the crawled content into https://www.editpad.org. We have disabled headless chrome when inputting the crawled content so that you can see it in action.
+Our sample.js will crawl a single job post and then input some of the crawled content into https://www.editpad.org. We have disabled headless chrome when inputting the crawled content so that you can see it in action.
 
 We use `optimist` to parse our argument (url) when running sample.js and `prompt` to illustrate how a user can input additional data that isn't part of the crawl.
 
@@ -17,5 +17,5 @@ git clone https://github.com/wellstyler/nodejs-puppeteer-web-scrape.git
 npm install
 
 # Crawl a job listing, input a string, and output some data to editpad.org
-node sample.js --url=https://old.eslbot.com/job-details/5aafc0ec8a8b373ef82877cf
+node sample.js --url=http://www.eslteachersboard.com/cgi-bin/China/index.pl?read=310980
 ```

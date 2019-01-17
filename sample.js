@@ -11,8 +11,8 @@ async function crawl(url) {
     // Scrape data
     const result = await page.evaluate(() => {
         // Scrape some selectors
-        headline = document.querySelector('body > app-root > app-job-details > div > mat-card > h1').innerText;
-        text = document.querySelector('body > app-root > app-job-details > div > mat-card > mat-card-content > p').innerText;
+        headline = document.querySelector('#msg_wrap > div.msg_headln').innerText;
+        text = document.querySelector('#msg_wrap > div.msg_text').innerText;
         return {
             headline,
             text,
