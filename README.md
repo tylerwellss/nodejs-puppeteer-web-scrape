@@ -7,6 +7,8 @@ We use `optimist` to parse our argument (url) when running sample.js and `prompt
 
 To see more about how to crawl and what you can do with the crawled data, check out https://github.com/GoogleChrome/puppeteer.
 
+![gif](http://g.recordit.co/o4VA7KH8Gg.gif)
+
 ## Run it locally
 
 ```bash
